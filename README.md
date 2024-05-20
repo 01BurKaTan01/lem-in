@@ -30,6 +30,14 @@ Lx-y Lz-w Lr-o ...
 - `Lx` represents an ant, where x is the ant number.
 - y, w, o represent room names.
 
+## Algorithms Used
+
+In our project, we used Breadth-First Search (BFS) and Bhaskaracharya Handri (Bhandri) algorithms to ensure that the ants find the fastest path.
+
+- **BFS (Breadth-First Search)**: This algorithm finds the shortest path by searching the graph layer by layer. Starting from any source, it visits all neighboring nodes until it reaches the target node.
+- **Bhandri Algorithm**: This algorithm is used to find the most efficient paths, especially in more complex and tangled colonies.
+
+
 ## Movement Rules
 
 1. At the beginning, all ants are in the room `##start`.
@@ -79,6 +87,7 @@ Lx-y Lz-w Lr-o ...
 7-2
 7-4
 6-5
+
 
 
 **Output:**
